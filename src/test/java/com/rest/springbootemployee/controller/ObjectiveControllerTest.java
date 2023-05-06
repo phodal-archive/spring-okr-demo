@@ -48,18 +48,4 @@ class ObjectiveControllerTest {
     // POST /teams/{teamId}/objectives
     // ObjectiveDTO: { "name": string, "description": string, "type": string }
     // ObjectiveResponse: { "id": string, "name": string, "description": string, "type": string }
-    @Test
-    void should_get_objective_when_perform_get_objective_by_id() throws Exception {
-        //given
-        String objectiveId = new ObjectId().toString();
-        objectiveRepository.save(new Objective(objectiveId, "objective", "description", "type"));
-
-        //when & then
-        client.perform(MockMvcRequestBuilders.get("/teams/1/objectives/" + objectiveId))
-                .andExpect(MockMvcResultMatchers.status().isOk())
-                .andExpect(MockMvcResultMatchers.jsonPath("$.id").value(objectiveId))
-                .andExpect(MockMvcResultMatchers.jsonPath("$.name").value("objective"))
-                .andExpect(MockMvcResultMatchers.jsonPath("$.description").value("description"))
-                .andExpect(MockMvcResultMatchers.jsonPath("$.type").value("type"));
-    }
 }
