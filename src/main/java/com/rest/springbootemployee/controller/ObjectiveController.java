@@ -31,8 +31,4 @@ public class ObjectiveController {
         Objective objective = objectiveService.createObjective(teamId, objectiveDTO);
         return objectiveMapper.toResponse(objective);
     }
-
-    // PUT /teams/{teamId}/objectives/{objectiveId}
-    // ObjectiveDTO: { "name": string, "description": string, "type": string }
-    // ObjectiveResponse: { "id": string, "name": string, "description": string, "type": string }
 }
