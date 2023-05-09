@@ -1,4 +1,4 @@
-package com.rest.springbootemployee.entity;
+package com.phodal.okr.entity;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.FieldType;

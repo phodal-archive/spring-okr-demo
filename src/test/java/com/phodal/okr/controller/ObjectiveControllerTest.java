@@ -1,10 +1,8 @@
-package com.rest.springbootemployee.controller;
+package com.phodal.okr.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.rest.springbootemployee.controller.dto.ObjectiveDTO;
-import com.rest.springbootemployee.entity.Objective;
-import com.rest.springbootemployee.repository.ObjectiveRepository;
-import org.bson.types.ObjectId;
+import com.phodal.okr.controller.dto.ObjectiveDTO;
+import com.phodal.okr.repository.ObjectiveRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

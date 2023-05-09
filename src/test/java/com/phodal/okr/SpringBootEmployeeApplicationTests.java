@@ -1,4 +1,4 @@
-package com.rest.springbootemployee;
+package com.phodal.okr;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

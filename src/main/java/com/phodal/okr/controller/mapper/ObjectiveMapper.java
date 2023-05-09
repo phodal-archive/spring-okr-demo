@@ -1,7 +1,7 @@
-package com.rest.springbootemployee.controller.mapper;
+package com.phodal.okr.controller.mapper;
 
-import com.rest.springbootemployee.entity.Objective;
-import com.rest.springbootemployee.controller.dto.ObjectiveResponse;
+import com.phodal.okr.controller.dto.ObjectiveResponse;
+import com.phodal.okr.entity.Objective;
 import org.springframework.stereotype.Component;
 
 @Component

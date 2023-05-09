@@ -1,8 +1,8 @@
-package com.rest.springbootemployee.service;
+package com.phodal.okr.service;
 
-import com.rest.springbootemployee.controller.dto.ObjectiveDTO;
-import com.rest.springbootemployee.entity.Objective;
-import com.rest.springbootemployee.repository.ObjectiveRepository;
+import com.phodal.okr.entity.Objective;
+import com.phodal.okr.controller.dto.ObjectiveDTO;
+import com.phodal.okr.repository.ObjectiveRepository;
 import org.springframework.stereotype.Service;
 
 @Service

@@ -1,4 +1,4 @@
-package com.rest.springbootemployee;
+package com.phodal.okr;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

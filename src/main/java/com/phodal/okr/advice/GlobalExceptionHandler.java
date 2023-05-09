@@ -1,6 +1,6 @@
-package com.rest.springbootemployee.advice;
+package com.phodal.okr.advice;
 
-import com.rest.springbootemployee.exception.NoObjectiveFoundException;
+import com.phodal.okr.exception.NoObjectiveFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;

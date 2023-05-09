@@ -1,6 +1,6 @@
-package com.rest.springbootemployee.repository;
+package com.phodal.okr.repository;
 
-import com.rest.springbootemployee.entity.Objective;
+import com.phodal.okr.entity.Objective;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

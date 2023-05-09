@@ -1,10 +1,10 @@
-package com.rest.springbootemployee.controller;
+package com.phodal.okr.controller;
 
-import com.rest.springbootemployee.controller.dto.ObjectiveDTO;
-import com.rest.springbootemployee.controller.dto.ObjectiveResponse;
-import com.rest.springbootemployee.controller.mapper.ObjectiveMapper;
-import com.rest.springbootemployee.entity.Objective;
-import com.rest.springbootemployee.service.ObjectiveService;
+import com.phodal.okr.controller.dto.ObjectiveDTO;
+import com.phodal.okr.controller.dto.ObjectiveResponse;
+import com.phodal.okr.controller.mapper.ObjectiveMapper;
+import com.phodal.okr.entity.Objective;
+import com.phodal.okr.service.ObjectiveService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

@@ -1,4 +1,4 @@
-package com.rest.springbootemployee.advice;
+package com.phodal.okr.advice;
 
 public class ErrorResponse {
     private int code;

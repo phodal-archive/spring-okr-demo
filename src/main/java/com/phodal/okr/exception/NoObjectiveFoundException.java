@@ -1,4 +1,4 @@
-package com.rest.springbootemployee.exception;
+package com.phodal.okr.exception;
 
 public class NoObjectiveFoundException extends RuntimeException {
     public NoObjectiveFoundException() {

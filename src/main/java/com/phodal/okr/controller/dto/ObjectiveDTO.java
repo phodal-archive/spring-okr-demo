@@ -1,29 +1,18 @@
-package com.rest.springbootemployee.controller.dto;
+package com.phodal.okr.controller.dto;
 
-//ObjectiveResponse: { "id": string, "name": string, "description": string, "type": string }
-public class ObjectiveResponse {
-    private String id;
+// ObjectiveDTO: { "name": string, "description": string, "type": string }
+public class ObjectiveDTO {
     private String name;
     private String description;
     private String type;
 
-    public ObjectiveResponse() {
+    public ObjectiveDTO() {
     }
 
-    public ObjectiveResponse(String id, String name, String description, String type) {
-        this.id = id;
+    public ObjectiveDTO(String name, String description, String type) {
         this.name = name;
         this.description = description;
         this.type = type;
-    }
-
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
     }
 
     public String getName() {
