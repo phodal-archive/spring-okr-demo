@@ -1,0 +1,34 @@
+@startuml
+class TeamLeader {
+    +createLongTermGoal()
+    +createShortTermGoal()
+    +updateGoal()
+    +assignOKR()
+    +trackProgress()
+    +reviewSystem()
+    +provideSupport()
+}
+
+class Employee {
+    +createOKR()
+    +updateOKR()
+    +reportProgress()
+    +getFeedback()
+}
+
+class OKR {
+    -goal
+    -startDate: String
+    -endDate: String
+    -deadline
+    -priority
+    -progress
+    +setGoal()
+    +setDeadline()
+    +setPriority()
+    +setProgress()
+}
+
+TeamLeader --> OKR
+Employee --> OKR
+@enduml

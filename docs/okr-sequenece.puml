@@ -1,0 +1,21 @@
+@startuml
+title OKR System Sequence Diagram
+
+actor TeamLeader
+actor Employee
+
+TeamLeader -> OKRSystem: Create/Update Team Goals
+OKRSystem -> TeamLeader: Confirmation
+Employee -> OKRSystem: Create/Update Personal OKRs
+OKRSystem -> Employee: Confirmation
+TeamLeader -> OKRSystem: Assign OKRs to Employees
+OKRSystem -> TeamLeader: Confirmation
+Employee -> OKRSystem: Update OKR Progress
+OKRSystem -> Employee: Confirmation
+TeamLeader -> OKRSystem: Track Employee OKR Progress
+OKRSystem -> TeamLeader: Employee OKR Progress
+TeamLeader -> OKRSystem: Review OKR System Effectiveness
+OKRSystem -> TeamLeader: OKR System Effectiveness Report
+TeamLeader -> Employee: Provide Support and Guidance
+Employee -> TeamLeader: Feedback and Support Request
+@enduml
